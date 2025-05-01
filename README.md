@@ -37,13 +37,15 @@ SCC detection is crucial in applications like **web crawling**, **social network
 ## Project Structure
 
 - **scc-algorithm-comparison/**
-  -  **kosaraju/** → Kosaraju’s Algorithm Implementation
-  -  **tarjan/** → Tarjan’s Algorithm Implementation
-  -  **parallel/** → Parallel SCC Algorithm Implementation
+  -  **Random graph analysis/** → Kosaraju & Tarjan
+                                → Parallel
+  -  **Real world analysis/** → Kosaraju & Tarjan
+                              → Parallel
   -  **datasets/** → Real-world and synthetic graph datasets
   -  **results/** → Performance results, charts, and logs
   -  **requirements.txt** → Python dependencies for the project
   -  **README.md** → Project overview and documentation
+  
 
 ---
 
